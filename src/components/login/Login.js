@@ -11,8 +11,9 @@ function Login() {
         <div className="login">
             <div className="login__container">
                 <img 
-                    src=""
-                    alt=""
+                    src="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png"
+                    alt="whatsapp_logo"
+                    className="whatsapp_logo"
                 />
 
                 <div className="login__text">
