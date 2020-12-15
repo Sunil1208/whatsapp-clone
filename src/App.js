@@ -4,10 +4,11 @@ import './App.css';
 import Chat from './components/chat/Chat';
 import Login from './components/login/Login';
 import Sidebar from './components/sidebar/Sidebar';
+import { useStateValue } from './components/stateManagement/StateProvider';
 
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [{user}, dispatch] = useStateValue();
   return (
     // BEM naming convention
     <div className="app">
